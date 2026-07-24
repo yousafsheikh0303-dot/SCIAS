@@ -201,10 +201,6 @@ streamlit run frontend/streamlit_app.py
 
 # 📸 Screenshots
 
-# 📸 Application Screenshots
-
-# 📸 Application Screenshots
-
 ## 🔐 Login Page
 
 ![Login Page](screenshots/login.png)
