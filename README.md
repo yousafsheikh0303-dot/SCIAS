@@ -237,40 +237,6 @@ streamlit run frontend/streamlit_app.py
 
 ![Yield Prediction](screenshots/yield_prediction.png)
 
-# 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork the repository
-
-2. Create a feature branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit your changes
-
-```bash
-git commit -m "Added new feature"
-```
-
-4. Push the branch
-
-```bash
-git push origin feature-name
-```
-
-5. Create a Pull Request
-
----
-
-# 📄 License
-
-This project is licensed under the MIT License.
-
----
-
 # 👨‍💻 Author
 
 ## Muhammad Yousaf
