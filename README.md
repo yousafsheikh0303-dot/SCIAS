@@ -199,8 +199,6 @@ streamlit run frontend/streamlit_app.py
 
 ---
 
-# 📸 Screenshots
-
 # 📸 Application Screenshots
 
 ## 🔐 Login Page
