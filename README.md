@@ -235,7 +235,7 @@ streamlit run frontend/streamlit_app.py
 
 ## 🌾 Yield Prediction
 
-![Yield Prediction](Screenshots/yield_prediction.png)
+![Yield Prediction](Screenshots/knowledge.png)
 
 # 👨‍💻 Author
 
