@@ -1,54 +1,292 @@
 # 🌾 SCIAS - Smart Crop Irrigation Advisory System
 
-SCIAS is an AI-powered agricultural advisory platform that helps farmers make informed decisions through voice and text interactions.
+> An AI-powered agricultural advisory platform that empowers farmers with intelligent recommendations for crop health, irrigation, weather, market prices, and yield prediction through voice and text interactions.
 
-## Features
+---
 
-- 🌦 Weather Advisory
-- 🌱 Crop Disease Detection
-- 💧 Irrigation Recommendations
+## 📖 Overview
+
+SCIAS (Smart Crop Irrigation Advisory System) is an intelligent multi-agent platform designed to support farmers in making data-driven agricultural decisions.
+
+The system provides personalized recommendations using Artificial Intelligence, Retrieval-Augmented Generation (RAG), speech processing, and multilingual support, making agricultural knowledge more accessible.
+
+---
+
+## ✨ Features
+
+- 🌦 Real-time Weather Advisory
+- 🌱 Crop Disease Detection & Recommendations
+- 💧 Smart Irrigation Guidance
 - 📈 Market Price Information
-- 📚 Knowledge Base (RAG)
-- 🌾 Yield Prediction
-- 🌍 Urdu, Punjabi & English Support
-- 🎤 Speech-to-Text
-- 🔊 Text-to-Speech
+- 🌾 Crop Yield Prediction
+- 📚 AI Knowledge Base using RAG
+- 🎤 Speech-to-Text (Voice Input)
+- 🔊 Text-to-Speech (Voice Response)
+- 🌍 Multilingual Support
+  - English
+  - Urdu
+  - Punjabi
+- 💬 Natural Language Interaction
+- 🖥 Modern Streamlit Interface
 
-## Tech Stack
+---
+
+# 🏗 System Architecture
+
+```
+                User
+                  │
+        Voice / Text Query
+                  │
+        Speech-to-Text (Optional)
+                  │
+          Translation Agent
+                  │
+         Query Orchestrator
+                  │
+     ┌────────────┼─────────────┐
+     │            │             │
+ Weather     Disease      Irrigation
+     │            │             │
+ Market     Yield Prediction   RAG
+     │            │             │
+     └────────────┼─────────────┘
+                  │
+      Text-to-Speech (Optional)
+                  │
+             Final Response
+```
+
+---
+
+# 🧠 AI Modules
+
+- Weather Agent
+- Disease Detection Agent
+- Irrigation Agent
+- Yield Prediction Agent
+- Market Price Agent
+- Translation Agent
+- Speech-to-Text Agent
+- Text-to-Speech Agent
+- RAG Knowledge Base
+
+---
+
+# 🛠 Tech Stack
+
+## Programming
 
 - Python
-- Streamlit
+
+## AI & Machine Learning
+
 - LangGraph
-- Groq LLaMA 3
-- ChromaDB
+- Groq LLaMA
 - Hugging Face Embeddings
+- ChromaDB
+
+## Frontend
+
+- Streamlit
+
+## Database
+
 - SQLite
+
+## Speech Processing
+
 - Vosk
 - gTTS
 
-## Installation
+## Data Processing
 
-```bash
-git clone https://github.com/yousafsheikh0303-dot/SCIAS.git
-cd SCIAS
-pip install -r requirements.txt
-streamlit run frontend/streamlit_app.py
-```
+- Pandas
+- NumPy
 
-## Project Structure
+---
+
+# 📂 Project Structure
 
 ```
 SCIAS/
-│── agents/
-│── frontend/
-│── data/
-│── db/
-│── models/
-│── orchestrator.py
-│── requirements.txt
-│── README.md
+│
+├── agents/
+│
+├── frontend/
+│   ├── pages/
+│   ├── streamlit_app.py
+│   └── ui_theme.py
+│
+├── data/
+│
+├── db/
+│
+├── models/
+│
+├── orchestrator.py
+├── serve_disease_model.py
+├── requirements.txt
+├── README.md
+└── .gitignore
 ```
 
-## Author
+---
 
-**Muhammad Yousaf**
+# 🚀 Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/yousafsheikh0303-dot/SCIAS.git
+```
+
+Move into the project folder
+
+```bash
+cd SCIAS
+```
+
+Create virtual environment
+
+```bash
+python -m venv .venv
+```
+
+Activate environment
+
+### Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the application
+
+```bash
+streamlit run frontend/streamlit_app.py
+```
+
+---
+
+# 🎯 Use Cases
+
+- Farmers
+- Agriculture Students
+- Researchers
+- Agricultural Consultants
+- Smart Farming Projects
+- AI in Agriculture Demonstrations
+
+---
+
+# 🌍 Future Improvements
+
+- Mobile Application
+- Satellite Image Analysis
+- IoT Sensor Integration
+- Fertilizer Recommendation System
+- Pest Detection using Computer Vision
+- Crop Calendar Planning
+- Offline Voice Assistant
+- Farmer Dashboard & Analytics
+
+---
+
+# 📸 Screenshots
+
+# 📸 Application Screenshots
+
+## 🏠 Home Page
+
+![Home Page](screenshots/home.png)
+
+---
+
+## 🌦 Weather Advisory
+
+![Weather](screenshots/weather.png)
+
+---
+
+## 🌱 Disease Detection
+
+![Disease](screenshots/disease.png)
+
+---
+
+## 💧 Irrigation Recommendation
+
+![Irrigation](screenshots/irrigation.png)
+
+---
+
+## 📈 Market Prices
+
+![Market](screenshots/market.png)
+
+---
+
+## 🌾 Yield Prediction
+
+![Yield Prediction](screenshots/yield_prediction.png)
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+
+2. Create a feature branch
+
+```bash
+git checkout -b feature-name
+```
+
+3. Commit your changes
+
+```bash
+git commit -m "Added new feature"
+```
+
+4. Push the branch
+
+```bash
+git push origin feature-name
+```
+
+5. Create a Pull Request
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+# 👨‍💻 Author
+
+## Muhammad Yousaf
+
+Computer Science Student
+
+AI | Generative AI | Machine Learning | Python | Streamlit | LangGraph | RAG
+
+GitHub:
+https://github.com/yousafsheikh0303-dot
+
+LinkedIn:
+(Add your LinkedIn profile link here)
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
