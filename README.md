@@ -201,51 +201,53 @@ streamlit run frontend/streamlit_app.py
 
 # 📸 Screenshots
 
+# 📸 Application Screenshots
+
 ## 🔐 Login Page
 
-![Login Page](screenshots/login.png)
+![Login Page](Screenshots/login.png)
 
 ---
 
 ## 🏠 Home Page
 
-![Home Page](screenshots/home.png)
+![Home Page](Screenshots/home.png)
 
 ---
 
 ## 🌦 Weather Advisory
 
-![Weather Advisory](screenshots/weather.png)
+![Weather Advisory](Screenshots/weather.png)
 
 ---
 
 ## 🌱 Disease Detection
 
-![Disease Detection](screenshots/disease.png)
+![Disease Detection](Screenshots/disease.png)
 
 ---
 
 ## 💧 Irrigation Recommendation
 
-![Irrigation Recommendation](screenshots/irrigation.png)
+![Irrigation Recommendation](Screenshots/irrigation.png)
 
 ---
 
 ## 📈 Market Prices
 
-![Market Prices](screenshots/market.png)
+![Market Prices](Screenshots/market.png)
 
 ---
 
 ## 📚 Knowledge Base
 
-![Knowledge Base](screenshots/knowledge.png)
+![Knowledge Base](Screenshots/knowledge.png)
 
 ---
 
 ## 🌾 Yield Prediction
 
-![Yield Prediction](screenshots/yield.png)
+![Yield Prediction](Screenshots/yield.png)
 
 # 👨‍💻 Author
 
