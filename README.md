@@ -249,7 +249,7 @@ GitHub:
 https://github.com/yousafsheikh0303-dot
 
 LinkedIn:
-(Add your LinkedIn profile link here)
+www.linkedin.com/in/muhammad-yousaf-819a362a0
 
 ---
 
